@@ -4,22 +4,6 @@ google_analytics:
 logo: /images/gh-logo.png
 title: ""
 enable_copy_code_button: true
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: splash
-      header:
-        overlay_color: "#5e616c"
-        overlay_image: /images/splash.jpg
-  - scope:
-      path: "README.md"
-    values:
-      layout: splash
-      header:
-        overlay_color: "#5e616c"
-        overlay_image: /images/splash.jpg
 
 atom_feed:
   hide: true

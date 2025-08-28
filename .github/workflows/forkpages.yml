@@ -25,9 +25,6 @@ jobs:
       - name: Fix the base url
         run: |
           echo "baseurl: ${{ github.event.repository.name }}" >> _config.yml
-      - name: Split the files 
-        run: |
-          tools/setup-pages.sh
       - name: Set up Node
         uses: actions/setup-node@v4
         with:

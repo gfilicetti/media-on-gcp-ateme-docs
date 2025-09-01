@@ -63,7 +63,7 @@ Connect to that IP address using https//\[IP ADDRESS\]
 You can get the nealive\_private\_ip from the Compute Engine Console. It’s the 10.154.x.x address next to the VM called ateme-nl.   
 https://console.cloud.google.com/compute/instances
 
-For channel\_name, use channel1 or a name of your choice.  
+For channel\_name, use **channel1**.  
 Note, the CMAF Ingest URL must have a / after the .toml
 
 An example CMAF ingest URL looks like this:  
@@ -129,7 +129,7 @@ After adding the Stream Adaptations to the Stream Adaptation Family (SAF), it sh
 Next, we will create the Live Output Channel.
 
 - Click on “Services” and then “Live” and finally click the “Add channel” button.  
-- For ‘Channel name’ use the same channel name as the one used in the Titan Live output url in the Channel Name field. The suggested channel name was channel1  
+- For ‘Channel name’ use the same channel name as the one used in the Titan Live output url in the Channel Name field. The channel name you used was **channel1**  
 - Note \- this name needs to be the same as the name in CMAF ingest URL.  
 - For ‘Input Type’ Select ‘CMAF Ingest’ from the ‘Input Type’ drop down menu and select the Stream Adaptation Family we created earlier (SAF) from the drop down under Output (near the bottom of the page) and then hit the “Add” button.
 

@@ -47,7 +47,7 @@ Connect to that IP address using https//\[IP ADDRESS\]
 ![image4](./images/ateme-image4.png)
 
 - Next, move to the next column with the title TRACKS to enable the SCTE-35 Passthrough.  
-- At the bottom, Click on the text below ‘Data Track \#0’ change the field labelled ‘Data Type’ from TTL to ‘SCTE-35 Pass-through’ and  change “Stream Conditioning” from Disabled to ‘On SCTE-35 Splice points’.  
+- At the bottom, Click on the text below ‘Data Track \#0’ change the field labelled ‘Data Type’ from TTML to ‘SCTE-35 Pass-through’ and  change “Stream Conditioning” from Disabled to ‘On SCTE-35 Splice points’.  
 - Click the Green Tick at the top of the Tracks
 
 ![image5](./images/ateme-image5.png)

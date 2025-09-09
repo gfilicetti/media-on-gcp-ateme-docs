@@ -1,12 +1,12 @@
 # Media & Entertainment on Google Cloud: Ateme Configuration Guide
 
-| TITAN Live | IP | \[Get the external IP from Compute Engine\] |
+| **TITAN Live** | **IP** | **titan.endpoints.\[*project_id*\].cloud.goog** |
 | :---- | :---- | :---- |
 |  | UI port | HTTPS / 443 |
-|  | Credentials | Administrator / Hackfest@IBC |
-| NEA Live | IP | \[Get the external IP from Compute Engine\] |
+|  | Credentials | Administrator / \[Provided by your Coach\] |
+| **NEA Live** | **IP** | **nea.endpoints.\[*project_id*\].cloud.goog** |
 |  | UI port | 8080 |
-|  | Credentials | Administrator / Hackfest@IBC |
+|  | Credentials | Administrator / \[Provided by your Coach\] |
 
 ## Configuration
 
